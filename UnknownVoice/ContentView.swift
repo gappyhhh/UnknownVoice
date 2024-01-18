@@ -10,12 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "mic.fill.badge.plus")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            Text("`hirata")
-            Text("ashuran")
+                .foregroundColor(.black)
+            Text("音声を登録してください")
+            
         }
         .padding()
     }
