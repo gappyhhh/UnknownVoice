@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		730F9C002B5955EB0010370F /* UnknownVoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F9BFF2B5955EB0010370F /* UnknownVoiceApp.swift */; };
-		730F9C022B5955EB0010370F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F9C012B5955EB0010370F /* ContentView.swift */; };
+		730F9C022B5955EB0010370F /* VoiceInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F9C012B5955EB0010370F /* VoiceInputView.swift */; };
 		730F9C042B5955EC0010370F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730F9C032B5955EC0010370F /* Assets.xcassets */; };
 		730F9C072B5955EC0010370F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730F9C062B5955EC0010370F /* Preview Assets.xcassets */; };
 		730F9C112B5955EC0010370F /* UnknownVoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F9C102B5955EC0010370F /* UnknownVoiceTests.swift */; };
 		730F9C1B2B5955EC0010370F /* UnknownVoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F9C1A2B5955EC0010370F /* UnknownVoiceUITests.swift */; };
 		730F9C1D2B5955EC0010370F /* UnknownVoiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F9C1C2B5955EC0010370F /* UnknownVoiceUITestsLaunchTests.swift */; };
+		730F9C2A2B5CE13D0010370F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F9C292B5CE13D0010370F /* MainView.swift */; };
+		730F9C2C2B5CE8C10010370F /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F9C2B2B5CE8C10010370F /* CommonFunction.swift */; };
+		73B0DF4C2B67737900F8E748 /* AlarmSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B0DF4B2B67737900F8E748 /* AlarmSettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		730F9BFC2B5955EB0010370F /* UnknownVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnknownVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		730F9BFF2B5955EB0010370F /* UnknownVoiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownVoiceApp.swift; sourceTree = "<group>"; };
-		730F9C012B5955EB0010370F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		730F9C012B5955EB0010370F /* VoiceInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceInputView.swift; sourceTree = "<group>"; };
 		730F9C032B5955EC0010370F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		730F9C062B5955EC0010370F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		730F9C0C2B5955EC0010370F /* UnknownVoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnknownVoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		730F9C162B5955EC0010370F /* UnknownVoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnknownVoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		730F9C1A2B5955EC0010370F /* UnknownVoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownVoiceUITests.swift; sourceTree = "<group>"; };
 		730F9C1C2B5955EC0010370F /* UnknownVoiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownVoiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		730F9C292B5CE13D0010370F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		730F9C2B2B5CE8C10010370F /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		73B0DF4B2B67737900F8E748 /* AlarmSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				730F9BFF2B5955EB0010370F /* UnknownVoiceApp.swift */,
-				730F9C012B5955EB0010370F /* ContentView.swift */,
+				730F9C292B5CE13D0010370F /* MainView.swift */,
+				73B0DF4B2B67737900F8E748 /* AlarmSettingView.swift */,
+				730F9C012B5955EB0010370F /* VoiceInputView.swift */,
+				730F9C2B2B5CE8C10010370F /* CommonFunction.swift */,
 				730F9C032B5955EC0010370F /* Assets.xcassets */,
 				730F9C052B5955EC0010370F /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				730F9C022B5955EB0010370F /* ContentView.swift in Sources */,
+				730F9C022B5955EB0010370F /* VoiceInputView.swift in Sources */,
+				730F9C2A2B5CE13D0010370F /* MainView.swift in Sources */,
+				730F9C2C2B5CE8C10010370F /* CommonFunction.swift in Sources */,
 				730F9C002B5955EB0010370F /* UnknownVoiceApp.swift in Sources */,
+				73B0DF4C2B67737900F8E748 /* AlarmSettingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
